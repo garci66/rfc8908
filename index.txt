@@ -1,0 +1,7 @@
+{
+   "captive": false,
+   "user-portal-url": "https://example.org/portal.html",
+   "venue-info-url": "https://flight.example.com/entertainment",
+   "seconds-remaining": 326,
+   "can-extend-session": true
+}
