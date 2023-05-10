@@ -10,6 +10,6 @@ export default async function (req) {
     myResponseObj['user-portal-url']+=`?rfc8908={$rfc8908}`
   }
   
-  return new Response(myResponseObj)
+  return response.json(myResponseObj)
 }
   
