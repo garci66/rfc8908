@@ -10,6 +10,6 @@ export default async function (req) {
     myResponseObj['user-portal-url']+=`?rfc8908={$rfc8908}`
   }
   
-  return response.json(myResponseObj)
+  return new Response(JSON.stringify(myResponseObj),{status:200,  headers: {'Content-Type': 'application/json'}})
 }
   
